@@ -1,0 +1,37 @@
+// size screen
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+//color 
+$softOrange: hsl(35, 77%, 62%);
+$softRed: hsl(5, 85%, 63%);
+$offWhite: hsl(36, 100%, 99%);
+$grayishBlue: hsl(233, 8%, 79%);
+$darkGrayishBlue: hsl(236, 13%, 42%);
+$veryDarkBlue: hsl(240, 100%, 5%);
+
+@media (min-width: $xs) and (max-width: $sm) {
+    .container{
+        width: 90vw;
+        margin: 0 auto;
+        min-height: 100vh ;
+    }
+}
+@media (min-width: 577px) and (max-width: $xl) {
+    .container{
+        width: 85vw;
+        margin: 0 auto;
+        min-height: 100vh ;
+    }
+}
+@media (min-width: 1201px) and (max-width: 2000px) {
+    .container{
+        width: 80vw;
+        margin: 0 auto;
+        min-height: 100vh ;
+    }
+}
